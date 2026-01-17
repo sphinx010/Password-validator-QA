@@ -39,18 +39,20 @@ javac MainApp.java
 java MainApp
 
 ---
-📁 Project structure:
-password-validator/
+
+
+📁 password-validator/
 ├── InputService.java
 ├── MainApp.java
 ├── PasswordValidator.java
 ├── UserContext.java
-├── rules/
-│   ├── LengthRule.java
-│   ├── UppercaseRule.java
-│   ├── SpecialCharacterRule.java
-│   ├── NoUsernameRule.java
-│   └── NotOldPasswordRule.java
+└── rules/
+    ├── LengthRule.java
+    ├── UppercaseRule.java
+    ├── SpecialCharacterRule.java
+    ├── NoUsernameRule.java
+    └── NotOldPasswordRule.java
+
 
 ---
 == SAMPLE OUTPUT ==
