@@ -1,6 +1,6 @@
 # 🔐 Password Validator
 
-A modular, object-oriented Java project that validates password strength and enforces user-specific security rules. Built with clean code principles, the **Strategy Pattern**, and ready for test-driven development.
+A modular, object-oriented Java project that validates password streongth and enforces user-specific security rules. Built with clean code principles, the **Strategy Pattern**, and ready for test-driven development.
 
 Part of the [`qa-java-lab`](https://github.com/sphinx010/java-QA-Lab.git) — a curated collection of microprojects for aspiring QA automation engineers.
 
@@ -38,7 +38,8 @@ Part of the [`qa-java-lab`](https://github.com/sphinx010/java-QA-Lab.git) — a 
 javac MainApp.java
 java MainApp
 
-🧱Project structure:
+---
+📁 Project structure:
 password-validator/
 ├── InputService.java
 ├── MainApp.java
@@ -51,6 +52,7 @@ password-validator/
 │   ├── NoUsernameRule.java
 │   └── NotOldPasswordRule.java
 
+---
 == SAMPLE OUTPUT ==
 === Password Validator ===
 Enter your username: john
