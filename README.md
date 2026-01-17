@@ -1,6 +1,6 @@
 # 🔐 Password Validator
 
-A modular, object-oriented Java project that validates password streongth and enforces user-specific security rules. Built with clean code principles, the **Strategy Pattern**, and ready for test-driven development.
+A modular, object-oriented Java project that validates password **strength** and enforces user-specific security rules. Built with clean code principles, the **Strategy Pattern**, and designed for test-driven development.
 
 Part of the [`qa-java-lab`](https://github.com/sphinx010/java-QA-Lab.git) — a curated collection of microprojects for aspiring QA automation engineers.
 
@@ -8,11 +8,11 @@ Part of the [`qa-java-lab`](https://github.com/sphinx010/java-QA-Lab.git) — a 
 
 ## 🚀 Features
 
-- ✅ Clean object-oriented design
-- 🧩 Pluggable rule system (Strategy Pattern)
-- 📥 Interactive Scanner-based input with input abstraction
-- ❌ Human-readable validation feedback
-- 🧪 Easily extendable for unit tests and UI upgrades
+- ✅ Clean object-oriented design  
+- 🧩 Pluggable rule system (Strategy Pattern)  
+- 📥 Interactive Scanner-based input with abstraction layer  
+- ❌ Human-readable validation feedback  
+- 🧪 Easily extendable for unit tests and UI upgrades  
 
 ---
 
@@ -30,17 +30,24 @@ Part of the [`qa-java-lab`](https://github.com/sphinx010/java-QA-Lab.git) — a 
 
 ## 🛠️ How to Run
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/qa-java-lab.git
-   cd qa-java-lab/password-validator
-2. Compile and run:
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/qa-java-lab.git
+cd qa-java-lab/password-validator
+
+2. Compile and run
+
+
+
 javac MainApp.java
 java MainApp
 
 
+---
 
-📁 password-validator/
+📁 Project Structure
+
+password-validator/
 ├── InputService.java
 ├── MainApp.java
 ├── PasswordValidator.java
@@ -53,8 +60,10 @@ java MainApp
     └── NotOldPasswordRule.java
 
 
+---
 
-== SAMPLE OUTPUT ==
+📌 Sample Output
+
 === Password Validator ===
 Enter your username: john
 Enter your old password: John@123
