@@ -38,7 +38,6 @@ Part of the [`qa-java-lab`](https://github.com/sphinx010/java-QA-Lab.git) — a 
 javac MainApp.java
 java MainApp
 
----
 
 
 📁 password-validator/
