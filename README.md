@@ -53,7 +53,7 @@ java MainApp
     └── NotOldPasswordRule.java
 
 
----
+
 == SAMPLE OUTPUT ==
 === Password Validator ===
 Enter your username: john
